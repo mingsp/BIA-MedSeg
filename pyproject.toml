@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bia"
+version = "1.0.0"
+description = "Bidirectional intervention analysis for medical image segmentation networks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "numpy>=1.26", "scipy>=1.11", "zennit==0.5.1"]
+
+[tool.setuptools.packages.find]
+include = ["bia*"]

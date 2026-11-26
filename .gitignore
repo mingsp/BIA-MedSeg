@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# data, model weights and experiment outputs are not part of the repository
+data/
+checkpoints/
+results/
+*.pth
+*.pt
+*.npy
+*.npz
+*.pkl
